@@ -5,9 +5,9 @@ class Book {
     String Publisher;  
 
     public Book(String book, String isbn, String author, String publisher) {  
-        this.BookName = bookName;  
-        this.isbnNumber = isbnNumber;  
-        this.AuthorName = authorName;  
+        this.BookName = book;  
+        this.isbnNumber = isbn;  
+        this.AuthorName = author ;  
         this.Publisher = publisher;  
     }  
 
